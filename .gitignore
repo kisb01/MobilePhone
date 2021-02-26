@@ -1,2 +1,16 @@
 # Project exclude paths
 /target/
+# hidden files or directories, except gitignore
+.*
+.idea
+!.gitignore
+
+# Java classes
+.class
+
+# IntelliJ
+out
+
+# Maven
+.iml
+target
